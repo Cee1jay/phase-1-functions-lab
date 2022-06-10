@@ -24,7 +24,7 @@ function distanceFromHqInBlocks(distanceInBlocks) {
         return (distanceTravelledInFeet(start, destination) - 400) * 0.02;
     } else if (
       (2000 < distanceTravelledInFeet(start, destination),
-      distanceTravelledInFeet(start, destination) < 2500)
+      distanceTravelledInFeet(start, destination) <2500)
     ) {
       return 25;
     } else if (2500 < distanceTravelledInFeet(start, destination)) {
